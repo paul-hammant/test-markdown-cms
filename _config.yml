@@ -1,5 +1,6 @@
 title: Meal Recipes
 description: A collection of delicious meal recipes
+baseurl: "/test-markdown-cms"
 theme: minima
 
 # Collections
