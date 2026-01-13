@@ -1,0 +1,19 @@
+title: Meal Recipes
+description: A collection of delicious meal recipes
+theme: minima
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:title/
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
