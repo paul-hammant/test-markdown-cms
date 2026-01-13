@@ -1,0 +1,141 @@
+---
+---
+
+@import "minima";
+
+/* Recipe card styles */
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.home h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home > p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.recipe-card h2 {
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+}
+
+.recipe-card h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.recipe-card h2 a:hover {
+  color: #0066cc;
+}
+
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.read-more {
+  display: inline-block;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Recipe detail styles */
+.recipe {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipe header {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.recipe h1 {
+  margin-bottom: 15px;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: #666;
+}
+
+.recipe-content {
+  line-height: 1.6;
+}
+
+.recipe-content h2 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.recipe-content h3 {
+  margin-top: 20px;
+  color: #555;
+}
+
+.recipe-content ul, .recipe-content ol {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.recipe-content li {
+  margin: 8px 0;
+}
+
+.recipe footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.recipe footer a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.recipe footer a:hover {
+  text-decoration: underline;
+}
