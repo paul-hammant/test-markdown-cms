@@ -10,7 +10,7 @@ title: Meal Recipes
   <div class="recipe-list">
     {% for recipe in site.recipes %}
       <article class="recipe-card">
-        <h2><a href="{{ recipe.url }}">{{ recipe.title }}</a></h2>
+        <h2><a href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.title }}</a></h2>
         <div class="recipe-info">
           {% if recipe.prep_time %}
             <span>⏱️ Prep: {{ recipe.prep_time }}</span>
@@ -22,7 +22,7 @@ title: Meal Recipes
             <span>🍽️ Serves: {{ recipe.servings }}</span>
           {% endif %}
         </div>
-        <a href="{{ recipe.url }}" class="read-more">View Recipe →</a>
+        <a href="{{ site.baseurl }}{{ recipe.url }}" class="read-more">View Recipe →</a>
       </article>
     {% endfor %}
   </div>
