@@ -1,0 +1,18 @@
+{
+  "allowedTypes": [],
+  "defaultFilename": null,
+  "dir": "/_recipes",
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": false,
+  "schemas": [],
+  "linkable": true,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "type": "md",
+  "urlTemplate": ""
+}

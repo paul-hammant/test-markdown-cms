@@ -38,6 +38,16 @@
       "protected": true
     },
     {
+      "icon": null,
+      "label": "recipes",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/recipes.json"
+        }
+      }
+    },
+    {
       "label": "Settings",
       "icon": "settings",
       "target": {
@@ -64,7 +74,7 @@
   "media": {
     "advanced": false,
     "customFields": null,
-    "dir": null,
+    "dir": "/media",
     "maxSize": null,
     "outputPath": null,
     "permissions": {
