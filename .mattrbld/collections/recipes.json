@@ -5,7 +5,9 @@
   "disableComments": false,
   "disablePreview": false,
   "draftByDefault": false,
-  "schemas": [],
+  "schemas": [
+    "/.mattrbld/schemas/recipes-schema.json"
+  ],
   "linkable": true,
   "maxSize": null,
   "permissions": {
